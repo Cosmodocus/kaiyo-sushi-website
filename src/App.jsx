@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Menus from './Pages/Menus';
+import Footer from './Components/Footer';
 
 const App = () => {
 	return (
@@ -23,6 +24,7 @@ const App = () => {
 					Component={Menus}
 				/>
 			</Routes>
+			<Footer />
 		</>
 	);
 };

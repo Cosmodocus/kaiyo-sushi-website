@@ -4,9 +4,9 @@ import KaiyoLogo from '../assets/kaiyo-sushi-logo.jpg';
 
 const Navbar = () => {
 	return (
-		<nav className='w-full bg-red flex flex-col items-center justify-between border-b '>
+		<nav className='w-full  flex flex-col items-center justify-between  '>
 			<img
-				className='w-[300px]'
+				className='w-[300px] '
 				src={KaiyoLogo}
 				alt=''
 			/>
