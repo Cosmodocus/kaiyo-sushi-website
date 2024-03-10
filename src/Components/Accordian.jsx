@@ -16,9 +16,9 @@ const Accordian = () => {
 			{faqAccordion.map((faq) => (
 				<div
 					key={faq.id}
-					className='flex flex-col '
+					className='flex flex-col  justify-center md:items-center'
 				>
-					<div className='border-4  border-red-900  rounded-lg bg-red-900 flex flex-col justify-between md:text-xl text-md md:mx-24 my-2'>
+					<div className='border-4 md:w-[900px]  border-red-900 hover:bg-red-950 hover:border-red-950 rounded-lg bg-red-900 flex flex-col justify-between md:text-xl text-md md:mx-24 my-2'>
 						<div
 							className='flex justify-between items-center text-white px-4 py-4 cursor-pointer'
 							onClick={() => handleSelected(faq.id)}

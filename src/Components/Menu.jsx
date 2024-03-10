@@ -9,7 +9,7 @@ const Menu = () => {
 			{menu.map((category) => (
 				<div
 					key={category.category}
-					className=' p-4 flex flex-col shadow-md bg-[#f7f7f7]  rounded-xl   '
+					className=' p-4 flex flex-col shadow-md bg-[#f7f7f7]  rounded-xl'
 				>
 					<h1 className='text-2xl text-red-900 font-bold underline'>
 						{category.category}

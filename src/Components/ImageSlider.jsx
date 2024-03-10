@@ -14,10 +14,10 @@ const ImageSlider = () => {
 	};
 
 	return (
-		<div className='w-full flex items-center justify-center gap-4 relative md:py-12 py-4'>
+		<div className='md:w-full flex items-center justify-center gap-2 relative md:py-12 py-4'>
 			<FaChevronLeft
 				onClick={prevSlide}
-				size={50}
+				size={30}
 				className=' cursor-pointer  rounded-full '
 				alt='left arrow icon'
 			/>
@@ -32,14 +32,14 @@ const ImageSlider = () => {
 						<img
 							src={slide.image}
 							alt={slide.alt}
-							className='md:max-w-sm max-w-xs w-auto h-auto '
+							className='md:max-w-sm  max-w-[15rem] '
 						/>
 					</div>
 				))}
 			</div>
 			<FaChevronRight
 				onClick={nextSlide}
-				size={50}
+				size={30}
 				className=' cursor-pointer  rounded-full '
 				alt='right arrow icon'
 			/>
