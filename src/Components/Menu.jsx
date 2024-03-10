@@ -5,21 +5,21 @@ import Spicy from '../assets/spicy.png';
 
 const Menu = () => {
 	return (
-		<section className=' grid md:grid-cols-2 grid-cols-1 gap-4 m-4 items-center justify-center'>
+		<section className=' grid md:grid-cols-2 grid-cols-1 gap-2 m-8 items-center justify-center'>
 			{menu.map((category) => (
 				<div
 					key={category.category}
-					className=' p-4 flex flex-col border rounded-xl '
+					className=' p-4 flex flex-col shadow-md bg-[#f7f7f7]  rounded-xl   '
 				>
-					<h1 className='text-2xl text-red-900 font-bold'>
+					<h1 className='text-2xl text-red-900 font-bold underline'>
 						{category.category}
 					</h1>
 					{category.items.map((item) => (
 						<div
 							key={item.id}
-							className='flex justify-between'
+							className='flex justify-between '
 						>
-							<div className='flex items-center justify-center'>
+							<div className='flex items-center justify-center '>
 								<p className='flex gap-1 items-center justify-center font-semibold'>
 									{`${item.id})`} {item.name}{' '}
 									{item.pcs ? `(${item.pcs}pcs)` : null}{' '}

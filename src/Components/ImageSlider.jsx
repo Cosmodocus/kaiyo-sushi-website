@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { slides } from '../data';
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 const ImageSlider = () => {
 	const [currentSlide, setCurrentSlide] = useState(0);
@@ -15,10 +15,10 @@ const ImageSlider = () => {
 
 	return (
 		<div className='w-full flex items-center justify-center gap-4 relative md:py-12 py-4'>
-			<FaArrowAltCircleLeft
+			<FaChevronLeft
 				onClick={prevSlide}
 				size={50}
-				className=' cursor-pointer hover:bg-gray-300 rounded-full '
+				className=' cursor-pointer  rounded-full '
 				alt='left arrow icon'
 			/>
 			<div className='flex overflow-hidden'>
@@ -32,15 +32,15 @@ const ImageSlider = () => {
 						<img
 							src={slide.image}
 							alt={slide.alt}
-							className='md:max-w-sm max-w-xs w-auto h-auto rounded-2xl'
+							className='md:max-w-sm max-w-xs w-auto h-auto '
 						/>
 					</div>
 				))}
 			</div>
-			<FaArrowAltCircleRight
+			<FaChevronRight
 				onClick={nextSlide}
 				size={50}
-				className=' cursor-pointer hover:bg-gray-300 rounded-full '
+				className=' cursor-pointer  rounded-full '
 				alt='right arrow icon'
 			/>
 		</div>

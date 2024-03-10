@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Menus from './Pages/Menus';
 import Footer from './Components/Footer';
+import FAQ from './Pages/FAQ';
 
 const App = () => {
 	return (
@@ -22,6 +23,10 @@ const App = () => {
 				<Route
 					path={'/menu'}
 					Component={Menus}
+				/>
+				<Route
+					path={'/accordian'}
+					Component={FAQ}
 				/>
 			</Routes>
 			<Footer />

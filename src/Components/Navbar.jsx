@@ -11,14 +11,17 @@ const Navbar = () => {
 				alt=''
 			/>
 			<ul className='flex gap-12 py-4 bg-red-900 w-full items-center justify-center'>
-				<li className='text-white md:text-xl text-lg'>
+				<li className='text-white hover:text-[#e8e6e6]  text-lg'>
 					<Link to={'/'}>Home</Link>
 				</li>
-				<li className='text-white md:text-xl text-lg'>
+				<li className='text-white  hover:text-[#e8e6e6] text-lg'>
 					<Link to={'/about'}>About</Link>
 				</li>
-				<li className='text-white md:text-xl text-lg'>
+				<li className='text-white  hover:text-[#e8e6e6] text-lg'>
 					<Link to={'/menu'}>Menu</Link>
+				</li>
+				<li className='text-white  hover:text-[#e8e6e6] text-lg'>
+					<Link to={'/accordian'}>FAQ</Link>
 				</li>
 			</ul>
 		</nav>

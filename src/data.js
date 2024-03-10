@@ -764,3 +764,54 @@ export const menu = [
 		],
 	},
 ];
+
+export const faqAccordion = [
+	{
+		id: 1,
+		question: "What are your restaurant's opening hours?",
+		answer:
+			'Our restaurant is open from Monday to Saturday, from 11:30 AM to 10:00 PM. We are closed on Sundays.',
+	},
+	{
+		id: 2,
+		question: 'Do you take reservations?',
+		answer:
+			'Yes, we accept reservations for both lunch and dinner. You can make a reservation by calling us during our business hours or using our online booking system.',
+	},
+	{
+		id: 3,
+		question: 'Can I order takeout or delivery?',
+		answer:
+			'Absolutely! We offer both takeout and delivery services. You can place your order online through our website or by calling our restaurant directly.',
+	},
+	{
+		id: 4,
+		question: 'Are you able to accommodate dietary restrictions?',
+		answer:
+			'Yes, we strive to accommodate various dietary needs and preferences. Please inform your server about any dietary restrictions, and we will do our best to tailor your meal accordingly.',
+	},
+	{
+		id: 5,
+		question: 'Do you offer catering services for events?',
+		answer:
+			"Yes, we provide catering services for events of all sizes. Whether it's a corporate gathering, birthday party, or wedding reception, we can create a customized menu to suit your needs.",
+	},
+	{
+		id: 6,
+		question: 'What safety measures do you have in place for COVID-19?',
+		answer:
+			'The health and safety of our guests and staff are our top priorities. We have implemented strict cleaning and sanitization protocols, practice social distancing in our seating arrangements, and require masks for all employees.',
+	},
+	{
+		id: 7,
+		question: 'Is there parking available at your restaurant?',
+		answer:
+			'Yes, we have ample parking available for our guests. Our parking lot is conveniently located near the restaurant entrance for easy access.',
+	},
+	{
+		id: 8,
+		question: 'Do you have gift cards available for purchase?',
+		answer:
+			'Yes, we offer gift cards that make the perfect gift for any occasion. You can purchase gift cards in various denominations at our restaurant or online through our website.',
+	},
+];
