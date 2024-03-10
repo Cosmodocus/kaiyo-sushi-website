@@ -9,13 +9,13 @@ import { Link } from 'react-router-dom';
 const OrderNow = () => {
 	return (
 		<div className='bg-[#f7f7f7]  flex flex-col w-full items-center justify-evenly py-8'>
-			<div className='flex flex-col gap-4 items-center justify-center hover:underline hover:text-red-800'>
+			<div className='flex flex-col gap-4 items-center justify-center '>
 				<img
 					className=' md:h-[200px] h-[100px]'
 					src={PhoneNotif}
 					alt=''
 				/>
-				<h1 className='md:text-4xl text-2xl'>
+				<h1 className='md:text-4xl text-2xl hover:underline hover:text-red-800'>
 					<Link>Click Here to Order Online</Link>
 				</h1>
 			</div>
