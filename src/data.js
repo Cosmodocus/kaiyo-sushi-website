@@ -4,6 +4,17 @@ import KaiyoRestaurantImg3 from './assets/kaiyo-restaurant-img3.jpg';
 import KaiyoRestaurantImg4 from './assets/kaiyo-restaurant-img4.jpg';
 import KaiyoRestaurantImg5 from './assets/kaiyo-restaurant-img5.jpg';
 import KaiyoRestaurantImg6 from './assets/kaiyo-restaurant-img6.jpg';
+import KaiyoSoup from './assets/miso-soup.jpg';
+import KaiyoMaki1 from './assets/kaiyo-maki-rolls.jpg';
+import KaiyoMaki2 from './assets/kaiyo-maki-rolls2.jpg';
+import KaiyoPlatter1 from './assets/kaiyo-sushi-platter-1.png';
+import KaiyoPlatter2 from './assets/kaiyo-sushi-platter-2.png';
+import KaiyoPlatter3 from './assets/kaiyo-sushi-platter-3.jpg';
+import KaiyoAppetizer1 from './assets/kaiyo-appetizer-1.jpg';
+import KaiyoSpecial1 from './assets/kaiyo-special-1.jpg';
+import KaiyoSushi2 from './assets/kaiyo-sushi-2.jpg';
+import KaiyoHandRoll1 from './assets/kaiyo-hand-rolls-1.jpg';
+import KaiyoHandRoll2 from './assets/kaiyo-hand-rolls-2.jpg';
 
 export const slides = [
 	{ id: 1, image: KaiyoRestaurantImg1, alt: 'Kaiyo Restaurant Image 1' },
@@ -84,6 +95,7 @@ export const menu = [
 				price: 8.99,
 			},
 		],
+		images: [{ id: 1, image: KaiyoAppetizer1 }],
 	},
 	{
 		category: 'Soup',
@@ -161,6 +173,7 @@ export const menu = [
 				price: 5.99,
 			},
 		],
+		images: [{ id: 1, image: KaiyoSoup }],
 	},
 
 	{
@@ -263,6 +276,10 @@ export const menu = [
 				price: 12.49,
 			},
 			// Add more Maki/Rolls items here as needed
+		],
+		images: [
+			{ id: 1, image: KaiyoMaki1 },
+			{ id: 2, image: KaiyoMaki2 },
 		],
 	},
 	{
@@ -430,6 +447,10 @@ export const menu = [
 			},
 			// Add more Special Rolls items here as needed
 		],
+		images: [
+			{ id: 1, image: KaiyoSushi2 },
+			{ id: 2, image: KaiyoSpecial1 },
+		],
 	},
 	{
 		category: 'Special Hand Rolls',
@@ -596,6 +617,10 @@ export const menu = [
 			},
 			// Add more Special Hand Rolls items here as needed
 		],
+		images: [
+			{ id: 1, image: KaiyoHandRoll1 },
+			{ id: 2, image: KaiyoHandRoll2 },
+		],
 	},
 	{
 		category: 'Platter Series',
@@ -658,7 +683,7 @@ export const menu = [
 			},
 			{
 				id: 78,
-				name: 'Assorted Nigiri and Sashimi Platter',
+				name: 'Assorted Nigiri/Sashimi Platter',
 				pcs: 16,
 				spicy: false,
 				vegan: false,
@@ -761,6 +786,11 @@ export const menu = [
 				price: 32.99,
 			},
 			// Add more Platter Series items here as needed
+		],
+		images: [
+			{ id: 1, image: KaiyoPlatter1 },
+			{ id: 2, image: KaiyoPlatter3 },
+			{ id: 3, image: KaiyoPlatter2 },
 		],
 	},
 ];
