@@ -16,31 +16,62 @@ const OrderNow = () => {
 					alt=''
 				/>
 				<h1 className='md:text-4xl text-2xl hover:underline hover:text-red-800'>
-					<Link>Click Here to Order Online</Link>
+					<Link
+						to={'https://gosnappy.io/owa/snappy/detail/G2441/2441/m/menu_892'}
+						target='_blank'
+					>
+						Click Here to Order Online
+					</Link>
 				</h1>
 			</div>
-			<div className='flex items-center justify-center gap-4 py-4'>
-				<img
-					className='md:w-[100px] w-[50px]  rounded-xl'
-					src={UberEats}
-					alt=''
-				/>
+			<div className='flex items-center justify-center gap-4 py-4 animate-pulse'>
+				<Link
+					target='_blank'
+					to={
+						'https://www.ubereats.com/ca/store/kaiyo-sushi/KXhdzWJyWJKPsNiFhZyZaQ'
+					}
+				>
+					<img
+						className='md:w-[100px] w-[50px]  rounded-xl cursor-pointer'
+						src={UberEats}
+						alt=''
+					/>
+				</Link>
 
-				<img
-					className='md:w-[100px] w-[50px] rounded-xl'
-					src={DoorDash}
-					alt=''
-				/>
-				<img
-					className='md:w-[100px] w-[50px]   rounded-xl'
-					src={SkipTheDish}
-					alt=''
-				/>
-				<img
-					className='md:w-[100px] w-[50px]   rounded-xl'
-					src={Fantuan}
-					alt=''
-				/>
+				<Link
+					target='_blank'
+					to={
+						'https://www.doordash.com/store/kaiyo-sushi-richmond-hill-23097715/'
+					}
+				>
+					<img
+						className='md:w-[100px] w-[50px] rounded-xl cursor-pointer'
+						src={DoorDash}
+						alt=''
+					/>
+				</Link>
+
+				<Link
+					target='_blank'
+					to={'https://www.skipthedishes.com/fr/kaiyo-sushi-9325'}
+				>
+					<img
+						className='md:w-[100px] w-[50px]   rounded-xl cursor-pointer'
+						src={SkipTheDish}
+						alt=''
+					/>
+				</Link>
+
+				<Link
+					target='_blank'
+					to={'https://www.fantuanorder.com/store/kaiyo-sushi/ca-12558'}
+				>
+					<img
+						className='md:w-[100px] w-[50px]   rounded-xl cursor-pointer'
+						src={Fantuan}
+						alt=''
+					/>
+				</Link>
 			</div>
 		</div>
 	);

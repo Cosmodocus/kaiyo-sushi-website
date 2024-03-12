@@ -12,7 +12,9 @@ const Accordian = () => {
 
 	return (
 		<section className='m-2 pt-6'>
-			<h1 className='text-6xl text-black font-bold text-center'>FAQ</h1>
+			<h1 className='md:text-6xl text-4xl text-black font-bold text-center py-2'>
+				FAQ
+			</h1>
 			{faqAccordion.map((faq) => (
 				<div
 					key={faq.id}

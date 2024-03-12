@@ -12,10 +12,7 @@ const Menu = () => {
 	};
 
 	return (
-		<section className=' flex flex-col gap-2 m-8 justify-center '>
-			<h1 className='md:text-6xl text-4xl font-bold mx-auto py-2 '>
-				Explore Our Menus
-			</h1>
+		<section className=' flex flex-col gap-2  justify-center md:mx-12 mx-2 my-4'>
 			{menu.map((category) => (
 				<div
 					key={category.category}
@@ -38,26 +35,26 @@ const Menu = () => {
 							}
 						>
 							<div className='flex items-center justify-center '>
-								<p className='flex gap-1 items-center justify-center py-2 md:text-xl text-md'>
+								<p className='flex gap-1 items-center justify-center py-2 md:text-xl text-sm'>
 									{`${item.id})`} {item.name}{' '}
 									{item.pcs ? `(${item.pcs}pcs)` : null}{' '}
 									{item.spicy ? (
 										<img
-											className='w-[20px] border-2 border-red-700 rounded-full'
+											className='md:w-[20px] w-[15px] border-2 border-red-700 rounded-full '
 											src={Spicy}
 											alt=''
 										/>
 									) : null}
 									{item.vegan ? (
 										<img
-											className='w-[20px] border-2 border-green-700 rounded-full'
+											className='md:w-[20px] w-[15px] border-2 border-green-700 rounded-full'
 											src={Vegan}
 											alt=''
 										/>
 									) : null}
 								</p>
 							</div>
-							<span className='md:text-xl text-md'>{`$${item.price}`}</span>
+							<span className='md:text-xl text-sm'>{`$${item.price}`}</span>
 						</div>
 					))}
 					<div
