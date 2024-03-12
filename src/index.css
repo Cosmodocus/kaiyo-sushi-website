@@ -11,5 +11,5 @@
 .scaled-image {
 	max-width: 30%;
 	max-height: 30%;
-	object-fit: contain; /* or object-fit: cover; depending on your needs */
+	object-fit: contain;
 }

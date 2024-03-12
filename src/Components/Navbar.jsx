@@ -21,7 +21,7 @@ const Navbar = () => {
 					<Link to={'/menu'}>Menu</Link>
 				</li>
 				<li className='text-white  hover:text-[#e8e6e6] md:text-lg text-md'>
-					<Link to={'/accordian'}>FAQ</Link>
+					<Link to={'/faq'}>FAQ</Link>
 				</li>
 			</ul>
 		</nav>

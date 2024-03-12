@@ -12,7 +12,7 @@ const Menu = () => {
 	};
 
 	return (
-		<section className=' flex flex-col gap-2  justify-center md:mx-12 mx-2 my-4'>
+		<section className=' flex flex-col gap-2  justify-center md:mx-24 mx-4 my-12'>
 			{menu.map((category) => (
 				<div
 					key={category.category}

@@ -25,7 +25,7 @@ const App = () => {
 					Component={Menus}
 				/>
 				<Route
-					path={'/accordian'}
+					path={'/faq'}
 					Component={FAQ}
 				/>
 			</Routes>
