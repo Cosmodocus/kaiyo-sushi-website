@@ -20,7 +20,7 @@ const Menu = () => {
 				>
 					<h1
 						onClick={() => handleSelected(category.category)}
-						className='md:text-4xl text-2xl text-red-900 font-bold cursor-pointer flex justify-between items-center'
+						className='md:text-4xl text-2xl hover:text-red-900 font-bold cursor-pointer flex justify-between items-center'
 					>
 						{category.category}{' '}
 						{selected === category.category ? <FaCaretUp /> : <FaCaretDown />}
